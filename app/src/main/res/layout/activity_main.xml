@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/website_et"
+        android:layout_width="100dp"
+        android:layout_height="48dp"
+        android:text="Hello World!"
+        android:layout_marginTop="200dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/website_bt"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="open Website"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/website_et">
+
+    </Button>
+    <EditText
+        android:id="@+id/location_et"
+        android:layout_width="100dp"
+        android:layout_height="48dp"
+        android:text="Hello World!"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/website_bt" />
+
+    <Button
+        android:id="@+id/location_bt"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="open Location"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/location_et">
+
+    </Button>
+    <EditText
+        android:id="@+id/share_et"
+        android:layout_width="100dp"
+        android:layout_height="48dp"
+        android:text="Hello World!"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/location_bt" />
+
+    <Button
+        android:id="@+id/share_bt"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="Share text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/share_et">
+
+    </Button>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
